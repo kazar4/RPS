@@ -3,6 +3,8 @@ Rock Paper Scissors Webapp with online multiplayer
 
 <img src="https://github.com/kazar4/RPS/blob/master/README_LOGO.png" width="450">
 
+Play at https://kazar4.com/RPS/index.html
+(Leave PIN empty if trying to create a room, best viewed on a Desktop)
 
 ### RPS/
 Includes all files associated with front end
