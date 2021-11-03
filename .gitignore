@@ -5,3 +5,4 @@ keystore
 *.key
 output_filename.txt
 cert-chain.txt
+*.pkcs12
