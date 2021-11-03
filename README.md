@@ -18,5 +18,5 @@ Java for backend
 sqlite3 for database
 
 
-## Technolgoies:
+## Technologies:
 particles.js, jetty, websockets, apache2
