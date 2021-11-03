@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RPS</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="screen" href="index0.css">
+</head>
+<body>
+
+  <img src="fillerLogo3.png" alt="Logo" id="Logo">
+  <br>
+  <input type="text" placeholder="PIN" id="PIN_Input">
+  <br>
+  <button type="button" id="button">Enter/Create Game</button>
+
+  <img src="R.png" alt="Rock" id="R" class="obj" onclick="move('R')">
+  <img src="P.png" alt="Scissors" id="P" class="obj" onclick="move('P')">
+  <img src="S.png" alt="Paper" id="S" class="obj" onclick="move('S')">
+
+  <div id="PIN_Text">PIN: </div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+<script src="client2.js"></script>
+<script src="startGame.js"></script>
+<script src="moveAnimate.js"></script>
+<script src="socket.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+
+
+</body>
+</html>
